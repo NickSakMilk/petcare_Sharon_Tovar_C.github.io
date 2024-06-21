@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title> PetCare</title>
+        <style>
+         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+        
+        * {font-family: "outfit";}
+        /*menu*/
+       html, body{
+        margin: 0;
+        padding: 0;
+       }
+        header {  
+            text-align: right;
+            font-size: 42px;
+            background: #fff;
+             }
+            header a{
+            margin: 49px;
+            padding: 0;
+            word-spacing: 80px;
+            display: inline-block;
+            border: 1px;
+            width:auto  ;
+            text-decoration: none;
+            color: #000000;
+            padding-left: 5px;
+            }  
+            header a:hover {
+                  color: #ED4B59;
+            }
+            .logo{
+                float: left;
+                padding-left: 110px;
+                padding-top: 13px;
+            }
+            /*titulo y fondo de gato*/
+            .title-overlay {
+            text-align: center;
+            font-size: 42px;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            top: -1100px;
+            color: #fff;
+            background: none;
+            }
+            /*fondo rojo*/
+            body {
+                background: #ED4B59;
+            }
+            /*fotos*/
+            figure {
+                padding: 10px 10px 30px;
+                display: inline-block;
+                position: relative;
+                color: #fff;
+            }
+            .consultas {
+                position: relative;       
+                top: -1100px;
+                left: 70px;
+                animation: consultas 2s;
+            }
+            @keyframes consultas {
+                0%{
+                    opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+            }
+            .vacunacion {
+                position: relative;       
+                top: -750px;
+                left: 70px;
+                animation: vacuna 3s;
+            }
+            @keyframes vacuna {
+                0%{
+                    opacity: 0;
+            }
+            40%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }}
+            .cirugias {
+                position: relative;       
+                top: -1100px;
+                left: 70px;
+                animation: cirugia 4s;
+            }
+            @keyframes cirugia {
+                0%{
+                    opacity: 0;
+            }
+            40%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }}
+            .cuidado {
+                position: relative;       
+                top: -750px;
+                left: 70px;
+                animation: cuidado 5s;
+            }
+            @keyframes cuidado {
+                0%{
+                    opacity: 0;
+            }
+            40%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }}
+            .producto {
+                position: relative;       
+                top: -1100px;
+                left: 70px;
+                animation: producto 6s;
+            }
+            @keyframes producto {
+                0%{
+                    opacity: 0;
+            }
+            40%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }}
+            figcaption {
+            position: relative;
+            top: 9px;
+            text-align: center;
+            font-size: 30px;}
+
+            /*linea horizontal*/
+            hr {
+                position: relative;       
+                top: -645px;                
+                left: -50%;              
+                width: 200%;             
+                height: 7px;              
+                background-color: #fff;
+                margin: 20px auto;
+                border: #fff;
+              }
+              /*linea vertical*/
+                .linea-vertical {
+                position: relative;
+                top: -665px;                
+                left: -32%;
+                width: 7px; 
+                height: 300px; 
+                background-color: #ffffff; 
+                margin: 0 auto; 
+                }
+                .caja3 .linea-vertical {
+                position: relative;
+                top: -965px;                
+                left: 18%;
+                width: 7px; 
+                height: 300px; 
+                background-color: #ffffff;
+                margin: 0 auto;  
+               
+                }
+                .caja4 .linea-vertical {
+                position: relative;
+                top: -1265px;                
+                left: -7%;
+                width: 7px; 
+                height: 300px; 
+                background-color: #ffffff;
+                margin: 0 auto;  
+                }
+                /*texto final y footer*/
+                .poopy {
+                position: relative;
+                top: -1539px;                
+                left: 19%;
+                color: #fff;
+                }
+                .time {
+                position: relative;
+                top: -1710px;                
+                left: 44%;
+                color: #fff;
+                }
+                .lila {
+                position: relative;
+                top: -1860px;                
+                left: 69%;
+                color: #fff;
+                }
+            footer {
+                    text-align: center;
+                    color: #fff;
+                    background:  #ED4B59;}
+        </style>
+    </head>
+    <body>
+            <header>
+                <img class="logo" src="img/loguito.png" height="136px" width="256px">
+                <a href="index.html">Home</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="equipo.html">Equipo</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="testimonios.html">Testimonios</a>
+                </header>
+
+                <div class="gato">
+                    <img src="img/orange_cat.png" width="100%" height="auto">
+                    <div class="title-overlay"><h1>Servicios</h1></div>
+                </div>
+
+                
+                <figure class="consultas">
+                    <img src="img/bb.png" alt="Consultas" height="250px" width="250px">
+                    <figcaption>Consultas</figcaption>
+                </figure>
+
+                <figure class="vacunacion">
+                    <img src="img/bb3.png" alt="vacunas" height="250px" width="250px">
+                    <figcaption>Vacunación</figcaption>
+                </figure>
+
+                <figure class="cirugias">
+                    <img src="img/bb1.png" alt="Cirugías" height="250px" width="250px">
+                    <figcaption>Cirugías</figcaption>
+                </figure>
+
+                <figure class="cuidado">
+                    <img src="img/bb4.png" alt="cuidados" height="250px" width="250px">
+                    <figcaption>Cuidado Dental</figcaption>
+                </figure>
+                
+                <figure class="producto">
+                    <img src="img/bb2.png" alt="Productos" height="250px" width="250px">
+                    <figcaption>Productos <br> Especializados</figcaption>
+                </figure>
+                <br>
+                <hr>
+                <div class="linea-vertical"></div>
+
+                <div class="caja3">
+                    <div class="linea-vertical"></div>
+                </div>
+                
+                <div class="caja4">
+                    <div class="linea-vertical"></div>
+                </div>
+                   
+                <div class="poopy">
+                <h2>PetCare</h2>
+                <p>El centro médico veterinario <br>
+                 PetCare, es una empresa que<br>
+                 tiene como objetivo trabajar por<br> 
+                 el bienestar y la salud de todas <br>
+                 las macotas.</p>
+                </div>
+
+                <div class="time">
+                <h2>Horario de Trabajo</h2>
+                <p>Estamos disponible para<br>
+                ayudarle las 24 horas del día.<br>
+                Ofrecemos lo mejor de<br> 
+                nosotros</p>
+                </div>
+
+                <div class="lila">
+                <h2>Contacto</h2>
+                <p>(57) 310 1485525<br><br>
+                oficialpetcare@gmail.com</p>
+                </div>
+
+                <footer>© 2024 PetCare - Todos los derechos reservados. Sitio creado
+                 por “Sharon Tovar” </footer>
+       </body>
+</html>
